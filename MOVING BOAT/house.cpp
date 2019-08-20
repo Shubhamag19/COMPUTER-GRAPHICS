@@ -9,10 +9,9 @@ void init(void){
 }
 
 void lst(void){
-  //glClear(GL_COLOR_BUFFER_BIT);
+  glClear(GL_COLOR_BUFFER_BIT);
   glPointSize(3);
   float radius;
-  glClear(GL_COLOR_BUFFER_BIT);
 
   glBegin(GL_POINTS);   //stars
   glColor3f(1,1,1);
