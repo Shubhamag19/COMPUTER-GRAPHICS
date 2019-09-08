@@ -1,7 +1,6 @@
 #include<GL/glut.h>
 #include<iostream>
 using namespace std;
-#define ROUND(a)((int)(a+0.5))
 
 void init(void)
 {
